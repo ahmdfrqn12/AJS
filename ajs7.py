@@ -2,7 +2,7 @@
 import siliwangi
 from siliwangi import *
 from akad.ttypes import *
-from thrift.unverting import *
+#from thrift.unverting import *
 from thrift.TMultiplexedProcessor import *
 from thrift.TSerialization import *
 from thrift.TRecursive import *
