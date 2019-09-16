@@ -138,7 +138,7 @@ settings = {
 }
 
 wait = {
-    "Limit": 1,
+    "Limit": {},
     "owner":{},
     "admin":{},
     "addadmin":False,
@@ -161,15 +161,15 @@ wait = {
     'qr':True,
     'ghost':True,
     'autoJoin':True,
-    "autoAdd":True,
+    "autoAdd":False,
     'autoBlock':True,
     "Timeline":False,
     'autoLeave':False,
     'autoLeave1':False,
     "detectMention":False,
     "mentionKick":False,
-    "welcomeOn":True,
-    "likeOn":True,
+    "welcomeOn":False,
+    "likeOn":False,
     "stickerOn":False,
     "Addsticker":{
             "name": "",
@@ -198,7 +198,7 @@ wait = {
             "pictureStatus": "",
             "statusMessage": ""
             },
-    "unsend":True,
+    "unsend":False,
     "mention":"ʜᴇʜʜ..!! ɴɢɪɴᴛɪᴩ ʙᴀᴇ ʟᴜ ᴋᴀ, ᴀɪᴍ ᴄɪᴩᴏᴋ ɴɪʜ \nᴩᴀᴋᴇ ᴋᴜʟᴋᴀs 2 ᴩɪɴᴛᴜ😂",
     "Respontag":"ɢᴀᴋ ᴜsᴀʜ ᴛᴀɢ sᴇɢᴀʟᴀ ᴋᴀ, \nᴋᴀʟᴀᴜ ᴋᴀɴɢᴇɴ ᴩᴍ ᴍᴇsʟᴀʜ ᴀᴊᴀ😜",
     "welcome":"sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ \nᴅɪ ʀᴏᴏᴍ ᴋᴀᴍɪ\nsᴇᴍᴏɢᴀ ᴅᴀᴩᴀᴛ ᴛɪᴋᴜɴɢᴀɴ 😚🙏",
@@ -459,7 +459,7 @@ def help():
     helpMessage = "╭━━━━━━━━━━━━━━━━━━━━━\n" + \
                   "║╭❉ MENU PROTECT\n" + \
                   "║┝──────────────────" + "\n" + \
-                  "║│" + key + "✰ᵖʳᵃˢᵗ ʰᵘⁿᵗᵉʳ ᵏᶦˡˡᵉʳ✰\n" + \
+                  "║│" + key + "✰A.D TEAM✰\n" + \
                   "║│" + key + "ᴍᴇɴᴜ\n" + \
                   "║│" + key + "ᴍᴇɴᴜ1\n" + \
                   "║│" + key + "ᴍᴇɴᴜ2\n" + \
@@ -509,10 +509,10 @@ def help():
                   "║│" + key + "ʀᴇғʀᴇsʜ\n" + \
                   "║│" + key + "ʀᴇsᴛᴀʀᴛ\n"+ \
                   "║╰❉──────────────────\n" + \
-                  "║ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴅᴇɴɢᴀɴ ʙɪᴊᴀᴋ\n" + \
-                  "║ᴊᴀɴɢᴀɴ sᴏɴɢᴏɴɢ...!!!\n" + \
-                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ғᴀᴊᴀʀ ᴩʀᴀsᴇᴛɪʏᴀ\n" + \
-                  "║ɪᴅ ʟɪɴᴇ: prast_hunter17\n" + \
+                  "║WE ARE TEAM\n" + \
+                  "║A.D TEAM\n" + \
+                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ahmdfrqn & drew\n" + \
+                  "║ɪᴅ ʟɪɴᴇ: ahmdfrqn_\n" + \
                   "╰━━━━━━━━━━━━━━━━━━━━━"
     return helpMessage
 
@@ -562,10 +562,10 @@ def help1():
                   "║│" + key + "ɢɪғᴛ:\n" + \
                   "║│" + key + "sᴘᴀᴍ:\n" + \
                   "║╰❉──────────────────\n" + \
-                  "║ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴅᴇɴɢᴀɴ ʙɪᴊᴀᴋ\n" + \
-                  "║ᴊᴀɴɢᴀɴ sᴏɴɢᴏɴɢ...!!!\n" + \
-                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ғᴀᴊᴀʀ ᴩʀᴀsᴇᴛɪʏᴀ\n" + \
-                  "║ɪᴅ ʟɪɴᴇ: prast_hunter17\n" + \
+                  "║WE ARE TEAM\n" + \
+                  "║A.D TEAM\n" + \
+                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ahmdfrqn & drew\n" + \
+                  "║ɪᴅ ʟɪɴᴇ: ahmdfrqn_\n" + \
                   "╰━━━━━━━━━━━━━━━━━━━━━"                  
     return helpMessage1
 
@@ -602,10 +602,10 @@ def help2():
                   "║│" + key + "sᴇᴛ ʟᴇᴀᴠᴇ:「ᴛᴇxᴛ」\n" + \
                   "║│" + key + "sᴇᴛ ᴡᴇʟᴄᴏᴍᴇ:「ᴛᴇxᴛ」\n" + \
                   "║╰❉──────────────────\n" + \
-                  "║ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴅᴇɴɢᴀɴ ʙɪᴊᴀᴋ\n" + \
-                  "║ᴊᴀɴɢᴀɴ sᴏɴɢᴏɴɢ...!!!\n" + \
-                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ғᴀᴊᴀʀ ᴩʀᴀsᴇᴛɪʏᴀ\n" + \
-                  "║ɪᴅ ʟɪɴᴇ: prast_hunter17\n" + \
+                  "║WE ARE TEAM\n" + \
+                  "║A.D TEAM\n" + \
+                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ahmdfrqn & drew\n" + \
+                  "║ɪᴅ ʟɪɴᴇ: ahmdfrqn_\n" + \
                   "╰━━━━━━━━━━━━━━━━━━━━━"
     return helpMessage2
 
@@ -656,10 +656,10 @@ def help3():
                   "║│" + key + "ᴩʀᴏғɪʟᴇsᴍᴜʟᴇ: (ɪᴅ sᴍᴜʟᴇ)\n" + \
                   "║│" + key + "sᴍᴜʟᴇ: (ʟɪɴᴋ ᴏᴄ)\n" + \
                   "║╰❉──────────────────\n" + \
-                  "║ɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ᴅᴇɴɢᴀɴ ʙɪᴊᴀᴋ\n" + \
-                  "║ᴊᴀɴɢᴀɴ sᴏɴɢᴏɴɢ...!!!\n" + \
-                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ғᴀᴊᴀʀ ᴩʀᴀsᴇᴛɪʏᴀ\n" + \
-                  "║ɪᴅ ʟɪɴᴇ: prast_hunter17\n" + \
+                  "║WE ARE TEAM\n" + \
+                  "║A.D TEAM\n" + \
+                  "║ᴄʀᴇᴀᴛᴏʀ ʙᴏᴛ: ahmdfrqn & drew\n" + \
+                  "║ɪᴅ ʟɪɴᴇ: ahmdfrqn_\n" + \
                   "╰━━━━━━━━━━━━━━━━━━━━━"
 
     return helpMessage3
@@ -2720,7 +2720,7 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan =  "「 ᴾᴴᴷ ᴮᴼᵀ 」\n• User : "
+                                xpesan =  "「 A.D TEAM 」\n• User : "
                                 ret_ = "• Group : {}\n".format(str(ginfo.name))
                                 ret_ += str(md)
                                 ry = str(ryan.displayName)
@@ -2778,7 +2778,7 @@ def bot(op):
                                 ret_ += "\n• 「♻」ɪɴ ᴅᴀʏs : {} ᴀɢᴀɪɴ".format(days)
                                 ret_ += "\n「 sᴘᴇᴇᴅ ʀᴇsᴘᴏɴ 」\n• ✡༎⎑  ༓{} ᴅᴇᴛɪᴋ".format(str(elapsed_time))
                                 ret_ += "\n「 sᴇʟғʙᴏᴛ ʀᴜɴᴛɪᴍᴇ 」\n• ✡༎⎑  ༓{}".format(str(bot))
-                                ret_ += "\nʙʏ. ᴾᴴᴷ ᴮᴼᵀ"
+                                ret_ += "\nʙʏ. A.D TEAM"
                                 ry = str(ryan.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -3346,7 +3346,7 @@ def bot(op):
                                except:
                                    pass
 
-                        elif text.lower() == "remove mantan":
+                        elif text.lower() == "remove chat":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                try:
@@ -3356,7 +3356,7 @@ def bot(op):
                                    kb.removeAllMessages(op.param2)
                                    ke.removeAllMessages(op.param2)
                                    sw.removeAllMessages(op.param2)
-                                   cl.sendMessage(msg.to,"ᴍᴀɴᴛᴀɴ ʙᴇʀʜᴀsɪʟ ᴅɪ ʙᴇʀsɪʜᴋᴀɴ")
+                                   cl.sendMessage(msg.to,"chat berhasil di bersihkan")
                                except:
                                    pass
 
@@ -3694,23 +3694,23 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getGroup(group).name + "\n"
                                 cl.sendMessage(msg.to,"✒ ᴾᴴᴷ ᴩʀᴏᴛᴇᴄᴛɪᴏɴ\n\n✒ ᴩʀᴏ ᴜʀʟ :\n"+ma+"\n✒ ᴩʀᴏ ᴋɪᴄᴋ :\n"+mb+"\n✒ ᴩʀᴏ ᴊᴏɪɴ :\n"+md+"\n✒ ᴩʀᴏ ᴄᴀɴᴄᴇʟ:\n"+mc+"\nᴛᴏᴛᴀʟ「%s」ɢʀᴏᴜᴩ ʏɢ ᴅɪ ᴩʀᴏᴛᴇᴄᴛ" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel))))
 
-                        elif cmd == "phk" or cmd == "absen":
+                        elif cmd == "adt" or cmd == "absen":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                                cl.sendMessage(msg.to, "ᵖʳᵃˢᵗ ʰᵘⁿᵗᵉʳ ᵏᶦˡˡᵉʳ")
-                                ki.sendMessage(msg.to, "ᴾᴴᴷ ˢᶦᵃᵖ ʲᵉⁿᵈʳᵃˡ")
-                                kk.sendMessage(msg.to, "ᴾᴴᴷ ˢᶦᵃᵖ ʲᵉⁿᵈʳᵃˡ")
-                                kc.sendMessage(msg.to, "ᴾᴴᴷ ˢᶦᵃᵖ ʲᵉⁿᵈʳᵃˡ")
-                                kb.sendMessage(msg.to, "ᴾᴴᴷ ˢᶦᵃᵖ ʲᵉⁿᵈʳᵃˡ")
-                                ke.sendMessage(msg.to, "ᴾᴴᴷ ˢᶦᵃᵖ ʲᵉⁿᵈʳᵃˡ")
-                                cl.sendMessage(msg.to,  "ᵒᵏ ˢᶦᵖ ᵇᵃᵍᵘˢ")
+                                cl.sendMessage(msg.to, "adt 1")
+                                ki.sendMessage(msg.to, "adt 2")
+                                kk.sendMessage(msg.to, "adt 3")
+                                kc.sendMessage(msg.to, "adt 4")
+                                kb.sendMessage(msg.to, "adt 5")
+                                ke.sendMessage(msg.to, "adt 6")
+                                cl.sendMessage(msg.to,  "WE ARE A.D TEAM")
 
 
-                          elif "0" in msg.text:
+                          elif "!bubar" in msg.text:
                            if msg._from in Bots:
                             if msg.toType == 2:
                              #  print "Otw cleanse"
-                               _name = msg.text.replace("0","")
+                               _name = msg.text.replace("!bubar","")
                                gs = cl.getGroup(msg.to)
                                gs = ki.getGroup(msg.to)
                                gs = kk.getGroup(msg.to) 
@@ -4263,7 +4263,7 @@ def bot(op):
                                 wait["dellbots"] = True
                                 cl.sendMessage(msg.to,"ᴩʟᴇᴀsᴇ sᴇɴᴅ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ...")
 
-                        elif cmd == "kompresh" or text.lower() == 'kompresh':
+                        elif cmd == "kompres" or text.lower() == 'kompresh':
                             if msg._from in admin:
                                 wait["addadmin"] = False
                                 wait["delladmin"] = False
@@ -5799,7 +5799,7 @@ def bot(op):
                                 except Exception as e:
                                     cl.sendMessage(msg.to, str(e))
 
-                        elif cmd == "phk.reinvite":
+                        elif cmd == "adt.reinvite":
                             if msg._from in admin:
                                 G = cl.getGroup(msg.to)
                                 ki.leaveGroup(msg.to)
@@ -5838,7 +5838,7 @@ def bot(op):
                              cl.sendMessage(msg)         
                              cl.sendMessage(msg.to,"Jika Berminat Langsung Hubungi Kami Ya Trima Kasih😊😊")
 
-                        elif cmd == "phksiap":
+                        elif cmd == "adtsiap":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                cl.sendContact(to, mid)
@@ -5850,11 +5850,11 @@ def bot(op):
                                cl.sendContact(to, Zmid)
                                cl.sendMessage(msg.to, "ᴀsʜɪᴀᴩᴩᴩ...﹗﹗")                              
 
-                        elif cmd == "phk-bot" or cmd == "phkbot":
+                        elif cmd == "adt-bot" or cmd == "adtbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
-                               cl.sendMessage(msg.to, "[🔰 ᴩʜᴋ~ⒷⓄⓣ☯t].")
+                               cl.sendMessage(msg.to, "[🔰 adt~ⒷⓄⓣ☯t].")
                                elapsed_time = time.time() - start
                                cl.sendMessage(msg.to, "╚☆Ⓢⓘⓐⓟ☆╗\n╚Ⓚⓞⓜⓐⓝⓓⓝ╮╗".format(str(elapsed_time)))
 
